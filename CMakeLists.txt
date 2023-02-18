@@ -15,5 +15,6 @@ find_package(OpenGL REQUIRED)
 include_directories({GLUT_INCLUDE_DIR} {OPENGL_INCLUDE_DIR})
 
 set(LIBS GLUT::GLUT OpenGL::GL)
+add_compile_definitions(GL_SILENCE_DEPRECATION)
 
 add_subdirectory(chapter1)
