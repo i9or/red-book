@@ -23,7 +23,7 @@ void init(void) {
 
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
-  glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+  gluOrtho2D(0.0, 1.0, 0.0, 1.0);
 }
 
 int main(int argc, char **argv) {

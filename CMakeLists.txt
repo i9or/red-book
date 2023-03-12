@@ -18,3 +18,4 @@ set(LIBS GLUT::GLUT OpenGL::GL)
 add_compile_definitions(GL_SILENCE_DEPRECATION)
 
 add_subdirectory(chapter1)
+add_subdirectory(chapter2)
