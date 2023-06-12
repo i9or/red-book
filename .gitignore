@@ -1,12 +1,12 @@
+xcuserdata/
+
+*.xcscmblueprint
+*.xccheckout
+
+DerivedData/
+Build/
+
 bin/*
 !bin/.gitkeep
 
-cmake-build-debug
-cmake-build-release
-
-build/*
-!build/.gitkeep
-
-compile_commands.json
-
-.cache
+.DS_Store
